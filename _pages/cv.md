@@ -16,7 +16,7 @@ Education
 * Research focus: hallucination in large language models, reinforcement learning, and large language model interpretability
 * M.S. in Mathematics, Beihang University (BUAA), September 2023 - July 2025
   * Research focus: federated splitting of large models and privacy computing
-* B.S. in Information and Computing Science (Hua Luogeng Class), Dalian University of Technology (DUT), September 2019 - July 2023
+* B.S. in Information and Computing Science (Hua Luogeng Class), School of Mathematical Sciences, Dalian University of Technology (DUT), September 2019 - July 2023
 
 Research experience
 ======

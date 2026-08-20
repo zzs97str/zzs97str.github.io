@@ -83,7 +83,7 @@ redirect_from:
   </article>
   <article class="timeline-item">
     <p class="timeline-date">2019 — 2023</p>
-    <h3>Bachelor's student · Dalian University of Technology</h3>
+    <h3>Bachelor's student · School of Mathematical Sciences · Dalian University of Technology</h3>
     <p>Studied Information and Computing Science in the Hua Luogeng Class.</p>
   </article>
 </div>
