@@ -34,7 +34,7 @@ redirect_from:
   <article class="focus-card">
     <p class="card-eyebrow">02 · Learning</p>
     <h3>Reinforcement learning</h3>
-    <p>Exploring how reinforcement learning can improve model behavior, reasoning, and alignment.</p>
+    <p>Exploring how reinforcement learning can improve model behavior and reasoning.</p>
   </article>
   <article class="focus-card">
     <p class="card-eyebrow">03 · Understanding</p>
