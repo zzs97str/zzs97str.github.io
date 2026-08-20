@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="home-hero">
   <p class="home-kicker">Ph.D. Student · Large Language Models · Beihang University</p>
-  <p class="home-tagline">I study how large language models hallucinate, reason, and learn privately.</p>
+  <p class="home-tagline">Sometimes you bloom; sometimes you grow roots.</p>
   <div class="home-links">
     <a href="https://github.com/zzs97str">GitHub</a>
     <a href="mailto:Zishuai_Zhang@outlook.com">Email</a>
