@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zishuai Zhang | Personal Website"
+title                    : "Zishuai Zhang"
 title_separator          : "-"
 name                     : &name "Zishuai Zhang"
 description              : &description "Personal website of Zishuai Zhang, a Ph.D. student researching hallucination in large language models, reinforcement learning, and interpretability."
