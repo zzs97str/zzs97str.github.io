@@ -95,14 +95,14 @@ redirect_from:
     <p class="publication-year">AAAI-26</p>
     <div>
       <h3><a href="https://arxiv.org/abs/2505.15683">FedSEA-LLaMA: A Secure, Efficient and Adaptive Federated Splitting Framework for Large Language Models</a></h3>
-      <p>First author · Federated learning, communication efficiency, privacy protection</p>
+      <p><strong>Zishuai Zhang</strong>, Hainan Zhang, Weihua Li, Qinnan Zhang, Jin Dong, Yongxin Tong, Zhiming Zheng</p>
     </div>
   </article>
   <article class="publication-item">
     <p class="publication-year">ACL Industry 2026</p>
     <div>
       <h3><a href="https://arxiv.org/abs/2510.16803">An Efficient Framework for Whole-Page Reranking via Single-Modal Supervision</a></h3>
-      <p>First author · Search ranking and model supervision</p>
+      <p><strong>Zishuai Zhang</strong>, Sihao Yu, Wenyi Xie, Ying Nie, Junfeng Wang, Zhiming Zheng, Dawei Yin, Hainan Zhang</p>
     </div>
   </article>
 </div>
