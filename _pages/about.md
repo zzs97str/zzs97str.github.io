@@ -1,62 +1,130 @@
 ---
 permalink: /
-title: "Zishuai Zhang's personal website."
+title: "Zishuai Zhang"
 author_profile: true
+classes: [home-page]
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Personal Github
-[ZishuaiZhang](https://github.com/zzs97str)
+<div class="home-hero">
+  <p class="home-kicker">Ph.D. Student · Large Language Models · Beihang University</p>
+  <p class="home-tagline">I study how large language models hallucinate, reason, and learn privately.</p>
+  <div class="home-links">
+    <a href="https://github.com/zzs97str">GitHub</a>
+    <a href="mailto:Zishuai_Zhang@outlook.com">Email</a>
+    <a href="/cv/">CV</a>
+    <a href="/publications/">Publications</a>
+  </div>
+</div>
 
-## Contact
-[Zishuai_Zhang@outlook.com](mailto:Zishuai_Zhang@outlook.com)
+<div class="home-intro">
+  <p>I am a Ph.D. student at Beihang University, working with Professor Hainan Zhang at the Institute of Artificial Intelligence. My research focuses on hallucination in large language models, federated learning, and privacy-preserving AI systems.</p>
+</div>
 
-## Education
+## Research focus
 
-### Master's Degree
-- **Institution**: Beijing University of Aeronautics and Astronautics (BUAA)
-- **Degree**: Master of Science in Artificial Intelligence
-- **Duration**: September 2023 - Present
-- **Research Group**: Future Blockchain and Privacy Computing Advanced Research Center, BUAA
-- **Research Focus**: Federated Splitting Large Models and Privacy Computing
-- **Advisor**: Professor Hainan Zhang
+<div class="focus-grid">
+  <article class="focus-card">
+    <p class="card-eyebrow">01 · Reliability</p>
+    <h3>LLM hallucination</h3>
+    <p>Suppressing hallucinations during training and detecting hallucination risk during inference.</p>
+  </article>
+  <article class="focus-card">
+    <p class="card-eyebrow">02 · Systems</p>
+    <h3>Federated LLMs</h3>
+    <p>Making large language models more efficient and practical on privacy-sensitive, resource-constrained devices.</p>
+  </article>
+  <article class="focus-card">
+    <p class="card-eyebrow">03 · Methods</p>
+    <h3>Privacy computing</h3>
+    <p>Combining distributed learning, model splitting, retrieval, and optimization to protect data while preserving utility.</p>
+  </article>
+</div>
 
-### Bachelor's Degree
-- **Institution**: Dalian University of Technology (DUT)
-- **Degree**: Bachelor of Science in Information and Computing Science (Hua Luogeng Class)
-- **Duration**: September 2019 - July 2023
+## Selected work
 
+<div class="work-grid">
+  <article class="work-card">
+    <p class="card-eyebrow">2024–2025 · Research</p>
+    <h3>FedSEA-LLaMA</h3>
+    <p>A secure, efficient, and adaptive federated splitting framework for large language models.</p>
+    <ul class="metric-list">
+      <li>8x inference speedup</li>
+      <li>87.9% less memory</li>
+      <li>MB → KB communication</li>
+    </ul>
+    <a href="/cv/">View project details →</a>
+  </article>
+  <article class="work-card">
+    <p class="card-eyebrow">2025 · Industry</p>
+    <h3>Baidu search ranking</h3>
+    <p>Improved prior-model discrimination using ranking signals and high-quality human annotations.</p>
+    <ul class="metric-list">
+      <li>F1: 0.726 → 0.747</li>
+      <li>Top-8 CTR: +0.25%</li>
+    </ul>
+    <a href="/cv/">View experience →</a>
+  </article>
+  <article class="work-card">
+    <p class="card-eyebrow">2024 · Systems</p>
+    <h3>Federated privacy LLM</h3>
+    <p>Implemented federated splitting for ChatGLM and LLaMA with Flower, transmitting hidden states and gradients between model segments.</p>
+    <ul class="metric-list">
+      <li>Client data locality</li>
+      <li>Flower framework</li>
+    </ul>
+    <a href="/cv/">View project details →</a>
+  </article>
+</div>
 
-## Research Experience
+## Timeline
 
-### Federated Splitting Large Models with Differential Privacy
-- **Project**: AIJ Paper - "A Federated Splitting Framework for LLMs: Security, Efficiency, and Adaptability" (under review)
-- **Outcomes**: Developed a framework where large models are split into smaller sub-models distributed across servers and clients, ensuring data privacy while reducing client computational load.
+<div class="timeline">
+  <article class="timeline-item">
+    <p class="timeline-date">2025 — present</p>
+    <h3>Ph.D. student · Beihang University</h3>
+    <p>Institute of Artificial Intelligence. Researching hallucination in large language models with Professor Hainan Zhang.</p>
+  </article>
+  <article class="timeline-item">
+    <p class="timeline-date">2025</p>
+    <h3>Algorithm intern · Baidu Search Strategy Department</h3>
+    <p>Worked on prior-model performance and whole-page reranking for search.</p>
+  </article>
+  <article class="timeline-item">
+    <p class="timeline-date">2023 — 2025</p>
+    <h3>Master's student · Beihang University</h3>
+    <p>Worked on federated splitting of large models and privacy computing at the Future Blockchain and Privacy Computing Advanced Research Center.</p>
+  </article>
+  <article class="timeline-item">
+    <p class="timeline-date">2019 — 2023</p>
+    <h3>Bachelor's student · Dalian University of Technology</h3>
+    <p>Studied Information and Computing Science in the Hua Luogeng Class.</p>
+  </article>
+</div>
 
-### Retrieval-Augmented Generation (RAG)
-- **Project**: Enhanced large model performance through document retrieval
-- **Methodology**: Utilized LLamaIndex for vectorized embedding of knowledge bases, enabling similarity matching of user queries with vectorized data to improve model accuracy and reduce computational load.
+## Selected publications
 
-### Blockchain Incentive Mechanism Based on Evolutionary Game Theory
-- **Conference Paper**: "A Semantic Detection Incentive Mechanism For Blockchain Transactions Based on Evolutionary Game Theory" (EI, IEEE Global Blockchain Conference)
-- **Contribution**: Proposed a new incentive mechanism for Bitcoin transaction validation, incorporating evolutionary game theory for transaction legality verification and anomaly detection.
-- **Patent**: "An Incentive Mechanism for Blockchain Transaction Semantic Detection Based on Evolutionary Game Theory" (Pending)
+<div class="publication-list">
+  <article class="publication-item">
+    <p class="publication-year">AAAI-26</p>
+    <div>
+      <h3>FedSEA-LLaMA: A Secure, Efficient and Adaptive Federated Splitting Framework for Large Language Models</h3>
+      <p>First author · Federated learning, communication efficiency, privacy protection</p>
+    </div>
+  </article>
+  <article class="publication-item">
+    <p class="publication-year">ACL Industry 2026</p>
+    <div>
+      <h3>An Efficient Framework for Whole-Page Reranking via Single-Modal Supervision</h3>
+      <p>First author · Search ranking and model supervision</p>
+    </div>
+  </article>
+</div>
 
-## Project Experience
-
-### Federated Privacy Large Model at Microchip Research Institute
-- **Duration**: June 2024 - November 2024
-- **Project**: Split large models into three parts, with clients holding the first and last Transformer blocks, and servers holding the middle block.
-- **Framework**: Utilized Flower federated learning framework for data transmission between models.
-- **Outcomes**: Demonstrated comparable performance between distributed and centralized models, validating the effectiveness of model splitting in protecting privacy and reducing client computational requirements.
-
-### Reinforcement Learning for Blockchain Adaptive Optimization at Microchip Research Institute
-- **Duration**: April 2024 - Present
-- **Project**: Debugged blockchain transaction pressure measurement and latency impact on blockchain TPS, optimized blockchain parameters using online reinforcement learning (PPO algorithm).
-- **Outcomes**: Improved blockchain TPS by 8.4% under network latency conditions, proving the effectiveness of the algorithm.
-
-## Self-Evaluation
-- **Passion**: Focused on what he loves, enjoys learning new technologies and applying them in practice, gains a sense of accomplishment from creating value.
+<div class="contact-panel">
+  <p><strong>Interested in collaboration?</strong></p>
+  <p>Feel free to reach out at <a href="mailto:Zishuai_Zhang@outlook.com">Zishuai_Zhang@outlook.com</a> or connect with me on <a href="https://github.com/zzs97str">GitHub</a>.</p>
+</div>
 

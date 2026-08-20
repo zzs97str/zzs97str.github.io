@@ -1,0 +1,296 @@
+/* ==========================================================================
+   PERSONAL HOMEPAGE
+   Weixin Liang-inspired academic structure with a Karpathy-inspired
+   chronological, personal rhythm.
+   ========================================================================== */
+
+body.home-page {
+  background: #f6f8fb;
+  color: #263238;
+}
+
+body.home-page .masthead {
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid #e6ebf0;
+}
+
+body.home-page #main {
+  max-width: 1280px;
+  margin-top: 3.5em;
+}
+
+body.home-page .page {
+  background: #fff;
+  border: 1px solid #e7ecf1;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(31, 41, 55, 0.06);
+  padding: clamp(1.5rem, 3vw, 3.5rem);
+}
+
+body.home-page .page__inner-wrap {
+  max-width: 920px;
+}
+
+body.home-page .page__title {
+  margin-bottom: 0.15em;
+  color: #111827;
+  font-size: clamp(2.2rem, 5vw, 4.25rem);
+  letter-spacing: -0.055em;
+}
+
+body.home-page .page__content {
+  max-width: none;
+}
+
+body.home-page .page__content h2 {
+  margin-top: 3.1em;
+  padding-bottom: 0.4em;
+  border-bottom: 0;
+  color: #111827;
+  font-size: 1.5rem;
+  letter-spacing: -0.025em;
+}
+
+body.home-page .page__content h3 {
+  color: #111827;
+  font-size: 1.08rem;
+  letter-spacing: -0.015em;
+}
+
+body.home-page .sidebar {
+  padding-top: 1.5em;
+}
+
+body.home-page .author__name {
+  color: #111827;
+}
+
+body.home-page .author__bio {
+  color: #586575;
+  line-height: 1.55;
+}
+
+.home-hero {
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid #e7ecf1;
+}
+
+.home-kicker {
+  margin-bottom: 0.8rem;
+  color: #2563eb;
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.home-tagline {
+  max-width: 720px;
+  margin-bottom: 1.25rem !important;
+  color: #4b5563;
+  font-family: Georgia, serif;
+  font-size: clamp(1.35rem, 2.5vw, 2rem) !important;
+  line-height: 1.35;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.home-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #d7e0ea;
+  border-radius: 999px;
+  color: #374151;
+  font-size: 0.82rem;
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.home-links a:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.home-intro {
+  max-width: 760px;
+  margin-top: 2rem;
+  color: #4b5563;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.focus-grid,
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.focus-card,
+.work-card {
+  min-height: 100%;
+  padding: 1.25rem;
+  border: 1px solid #e4eaf0;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #fff 0%, #fbfcfe 100%);
+}
+
+.focus-card h3,
+.work-card h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.55rem;
+}
+
+.focus-card p,
+.work-card p {
+  margin-bottom: 0;
+  color: #586575;
+  font-size: 0.92rem !important;
+  line-height: 1.6;
+}
+
+.card-eyebrow,
+.timeline-date,
+.publication-year {
+  margin-bottom: 0.55rem !important;
+  color: #2563eb !important;
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.metric-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1rem 0 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.metric-list li {
+  margin: 0 !important;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 0.75rem !important;
+  font-weight: 700;
+}
+
+.work-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 0.5rem;
+  padding-left: 1.75rem;
+  border-left: 1px solid #d7e0ea;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.7rem;
+}
+
+.timeline-item::before {
+  position: absolute;
+  top: 0.35rem;
+  left: -2.1rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #2563eb;
+  box-shadow: 0 0 0 1px #2563eb;
+  content: "";
+}
+
+.timeline-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.timeline-item p:last-child {
+  margin-bottom: 0;
+  color: #586575;
+  font-size: 0.92rem !important;
+  line-height: 1.65;
+}
+
+.publication-list {
+  border-top: 1px solid #e7ecf1;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #e7ecf1;
+}
+
+.publication-item h3 {
+  margin: 0 0 0.35rem;
+}
+
+.publication-item p {
+  margin: 0;
+  color: #586575;
+  font-size: 0.9rem !important;
+}
+
+.contact-panel {
+  margin-top: 2.8rem;
+  padding: 1.25rem 1.4rem;
+  border-left: 3px solid #2563eb;
+  background: #f8fafc;
+}
+
+.contact-panel p {
+  margin-bottom: 0.45rem !important;
+}
+
+.contact-panel p:last-child {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 900px) {
+  body.home-page #main {
+    margin-top: 1.5em;
+  }
+
+  body.home-page .page {
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+
+  .focus-grid,
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  body.home-page .page__title {
+    font-size: 2.6rem;
+  }
+
+  .publication-item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
