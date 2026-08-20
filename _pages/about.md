@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 <div class="home-hero">
-  <p class="home-kicker">Ph.D. Student · Large Language Models · Beihang University</p>
   <p class="home-tagline">Sometimes you bloom, sometimes you grow roots.</p>
   <div class="home-links">
     <a href="https://github.com/zzs97str">GitHub</a>
