@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D. in Mathematics, Beihang University (BUAA), September 2025 - Present
   * Institute of Artificial Intelligence; advisor: Professor Hainan Zhang
-  * Research focus: hallucination in large language models
+* Research focus: hallucination in large language models, reinforcement learning, and large language model interpretability
 * M.S. in Mathematics, Beihang University (BUAA), September 2023 - July 2025
   * Research focus: federated splitting of large models and privacy computing
 * B.S. in Information and Computing Science (Hua Luogeng Class), Dalian University of Technology (DUT), September 2019 - July 2023
@@ -48,6 +48,7 @@ Skills
 ======
 * Python, Linux, Matlab, PyTorch, and Transformers
 * Federated learning, privacy computing, and large language models
+* Large language model hallucination and interpretability
 * Retrieval-augmented generation with LlamaIndex
 * Blockchain systems and reinforcement learning with PPO
 

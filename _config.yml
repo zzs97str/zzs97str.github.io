@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zishuai Zhang | Personal Website"
 title_separator          : "-"
 name                     : &name "Zishuai Zhang"
-description              : &description "Personal website of Zishuai Zhang, a Ph.D. student researching hallucination in large language models, federated learning, and privacy computing."
+description              : &description "Personal website of Zishuai Zhang, a Ph.D. student researching hallucination in large language models, reinforcement learning, and interpretability."
 url                      : https://zzs97str.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zzs97str/zzs97str.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : # Add a personal portrait to /images/ when available
   name             : "Zishuai Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student researching hallucination in large language models, federated learning, and privacy computing"
+  bio              : "Ph.D. student researching hallucination in large language models, reinforcement learning, and interpretability"
   location         : "Beijing, China"
   employer         : "Beihang University (BUAA)"
   uri              : # URL

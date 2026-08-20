@@ -20,7 +20,7 @@ redirect_from:
 </div>
 
 <div class="home-intro">
-  <p>I am a Ph.D. student at Beihang University, working with Professor Hainan Zhang at the Institute of Artificial Intelligence. My research focuses on hallucination in large language models, federated learning, and privacy-preserving AI systems.</p>
+  <p>I am a Ph.D. student at Beihang University, working with Professor Hainan Zhang at the Institute of Artificial Intelligence. My research interests are hallucination in large language models, reinforcement learning, and large-language-model interpretability. My previous work includes federated learning and privacy-preserving AI systems.</p>
 </div>
 
 ## Research focus
@@ -32,14 +32,14 @@ redirect_from:
     <p>Suppressing hallucinations during training and detecting hallucination risk during inference.</p>
   </article>
   <article class="focus-card">
-    <p class="card-eyebrow">02 · Systems</p>
-    <h3>Federated LLMs</h3>
-    <p>Making large language models more efficient and practical on privacy-sensitive, resource-constrained devices.</p>
+    <p class="card-eyebrow">02 · Learning</p>
+    <h3>Reinforcement learning</h3>
+    <p>Exploring how reinforcement learning can improve model behavior, reasoning, and alignment.</p>
   </article>
   <article class="focus-card">
-    <p class="card-eyebrow">03 · Methods</p>
-    <h3>Privacy computing</h3>
-    <p>Combining distributed learning, model splitting, retrieval, and optimization to protect data while preserving utility.</p>
+    <p class="card-eyebrow">03 · Understanding</p>
+    <h3>LLM interpretability</h3>
+    <p>Developing ways to understand how large language models represent information, reason, and fail.</p>
   </article>
 </div>
 
@@ -69,7 +69,7 @@ redirect_from:
   <article class="timeline-item">
     <p class="timeline-date">2025 — present</p>
     <h3>Ph.D. student · Beihang University</h3>
-    <p>Institute of Artificial Intelligence. Researching hallucination in large language models with Professor Hainan Zhang.</p>
+    <p>Institute of Artificial Intelligence. Researching hallucination, reinforcement learning, and interpretability in large language models with Professor Hainan Zhang.</p>
   </article>
   <article class="timeline-item">
     <p class="timeline-date">2025</p>
