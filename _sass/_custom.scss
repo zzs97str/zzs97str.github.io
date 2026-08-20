@@ -167,33 +167,6 @@ body.home-page .author__bio {
   text-transform: uppercase;
 }
 
-.metric-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 1rem 0 0 !important;
-  padding: 0 !important;
-  list-style: none;
-}
-
-.metric-list li {
-  margin: 0 !important;
-  padding: 0.25rem 0.5rem;
-  border-radius: 5px;
-  background: #eff6ff;
-  color: #1d4ed8;
-  font-size: 0.75rem !important;
-  font-weight: 700;
-}
-
-.work-card a {
-  display: inline-block;
-  margin-top: 1rem;
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-decoration: none !important;
-}
-
 .timeline {
   position: relative;
   margin-left: 0.5rem;

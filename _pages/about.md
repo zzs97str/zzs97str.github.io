@@ -49,33 +49,17 @@ redirect_from:
   <article class="work-card">
     <p class="card-eyebrow">2024–2025 · Research</p>
     <h3>FedSEA-LLaMA</h3>
-    <p>A secure, efficient, and adaptive federated splitting framework for large language models.</p>
-    <ul class="metric-list">
-      <li>8x inference speedup</li>
-      <li>87.9% less memory</li>
-      <li>MB → KB communication</li>
-    </ul>
-    <a href="/cv/">View project details →</a>
+    <p>Designed a secure, efficient, and adaptive federated splitting framework for LLaMA2-7B. Implemented collaborative KV Cache and Attention-Mask compression, dynamic partition points, Gaussian-noise protection for intermediate vectors, and privacy-attack evaluation.</p>
   </article>
   <article class="work-card">
     <p class="card-eyebrow">2025 · Industry</p>
     <h3>Baidu search ranking</h3>
-    <p>Improved prior-model discrimination using ranking signals and high-quality human annotations.</p>
-    <ul class="metric-list">
-      <li>F1: 0.726 → 0.747</li>
-      <li>Top-8 CTR: +0.25%</li>
-    </ul>
-    <a href="/cv/">View experience →</a>
+    <p>Improved prior-model supervision by using upstream ranking signals to construct positive and negative samples, combining single-modal ranking ability with high-quality human annotations for whole-page reranking.</p>
   </article>
   <article class="work-card">
     <p class="card-eyebrow">2024 · Systems</p>
     <h3>Federated privacy LLM</h3>
-    <p>Implemented federated splitting for ChatGLM and LLaMA with Flower, transmitting hidden states and gradients between model segments.</p>
-    <ul class="metric-list">
-      <li>Client data locality</li>
-      <li>Flower framework</li>
-    </ul>
-    <a href="/cv/">View project details →</a>
+    <p>Implemented federated splitting for ChatGLM and LLaMA with Flower. Managed hidden-state and gradient transmission between client and server model segments while keeping training data and labels on the client.</p>
   </article>
 </div>
 
@@ -110,14 +94,14 @@ redirect_from:
   <article class="publication-item">
     <p class="publication-year">AAAI-26</p>
     <div>
-      <h3>FedSEA-LLaMA: A Secure, Efficient and Adaptive Federated Splitting Framework for Large Language Models</h3>
+      <h3><a href="https://arxiv.org/abs/2505.15683">FedSEA-LLaMA: A Secure, Efficient and Adaptive Federated Splitting Framework for Large Language Models</a></h3>
       <p>First author · Federated learning, communication efficiency, privacy protection</p>
     </div>
   </article>
   <article class="publication-item">
     <p class="publication-year">ACL Industry 2026</p>
     <div>
-      <h3>An Efficient Framework for Whole-Page Reranking via Single-Modal Supervision</h3>
+      <h3><a href="https://arxiv.org/abs/2510.16803">An Efficient Framework for Whole-Page Reranking via Single-Modal Supervision</a></h3>
       <p>First author · Search ranking and model supervision</p>
     </div>
   </article>
