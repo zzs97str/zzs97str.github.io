@@ -1,4 +1,6 @@
-{% if site.analytics.provider and page.analytics != false %}
+{% if site.analytics.provider == "busuanzi" %}
+  {% include analytics-providers/busuanzi.html %}
+{% elsif site.analytics.provider and page.analytics != false %}
 
 {% case site.analytics.provider %}
 {% when "google" %}

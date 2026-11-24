@@ -1,3 +1,10 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
+{% if site.analytics.provider == "busuanzi" %}
+<p class="visitor-stats">
+  <span id="visitor-stats-count" hidden>Unique visitors: <span id="visitor-stats-total"></span></span>
+  <span id="visitor-stats-status" role="status"></span>
+  <a href="{{ '/visitor-settings/' | relative_url }}">Visitor settings</a>
+</p>
+{% endif %}
 <!-- end custom footer snippets -->

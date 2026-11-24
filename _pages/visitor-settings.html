@@ -1,0 +1,29 @@
+---
+layout: single
+title: "Visitor statistics"
+permalink: /visitor-settings/
+author_profile: false
+analytics: false
+sitemap: false
+noindex: true
+---
+
+<p>Visitor counts are provided by <a href="https://www.busuanzi.cc/doc.php" rel="noopener noreferrer" target="_blank">Busuanzi</a>. They estimate unique visitors rather than page views. Counts are approximate: a shared network, a new device, or a changed IP address can affect how visitors are distinguished.</p>
+
+<h2>Exclude your own visits</h2>
+<p>On each browser you use to visit your website, choose <strong>Exclude this browser</strong> once. Future visits from that browser will not be submitted to the counter. This settings page never submits visits.</p>
+
+<div id="visitor-statistics-controls">
+  <p id="visitor-settings-status" role="status" aria-live="polite">Checking this browser's preference…</p>
+  <button id="visitor-stats-exclude" class="btn btn--primary" type="button" disabled>Exclude this browser</button>
+  <button id="visitor-stats-include" class="btn" type="button" disabled>Include this browser</button>
+</div>
+
+<noscript><p>Enable JavaScript to save a browser preference. No visits are submitted while JavaScript is disabled.</p></noscript>
+
+<p>The preference is saved only in this browser's website data. Set it again after clearing that data, switching browser profiles, or using another device. Private browsing does not retain the preference after its session ends.</p>
+
+<h2>View the count</h2>
+<p><a href="https://www.busuanzi.cc/count.php?search={{ site.url | remove: 'https://' | remove: 'http://' | split: '/' | first | uri_escape }}" rel="noopener noreferrer" target="_blank">Open site statistics</a> to view the service's statistics page while keeping this browser excluded. New visits are counted after this feature is enabled; previous visits cannot be reconstructed.</p>
+
+<p><a href="{{ '/' | relative_url }}">Return to the homepage</a></p>

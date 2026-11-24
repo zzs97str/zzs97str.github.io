@@ -241,6 +241,19 @@ body.home-page .author__bio {
   margin-bottom: 0 !important;
 }
 
+.visitor-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.visitor-stats [hidden] {
+  display: none !important;
+}
+
 @media (max-width: 900px) {
   body.home-page #main {
     margin-top: 1.5em;
